@@ -1,0 +1,16 @@
+@import "../scss/reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Varela+Round&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: black(255, 255, 255);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
