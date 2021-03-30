@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/ubuntu_regular.eot');
+	src: local('☺'), 
+        url('../fonts/ubuntu_regular.woff') format('woff'), 
+        url('../fonts/ubuntu_regular.ttf') format('truetype'), 
+        url('../fonts/ubuntu_regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/Ubuntu-B.eot');
+	src: local('☺'), 
+        url('../fonts/Ubuntu-B.woff') format('woff'), 
+        url('../fonts/Ubuntu-B.ttf') format('truetype'), 
+        url('../fonts/Ubuntu-B.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/Ubuntu-L.eot');
+	src: local('☺'), 
+        url('../fonts/Ubuntu-L.woff') format('woff'), 
+        url('../fonts/Ubuntu-L.ttf') format('truetype'), 
+        url('../fonts/Ubuntu-L.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/Ubuntu-M.eot');
+	src: local('☺'), 
+        url('../fonts/Ubuntu-M.woff') format('woff'), 
+        url('../fonts/Ubuntu-M.ttf') format('truetype'), 
+        url('../fonts/Ubuntu-M.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Varela Round';
+    src: local('Varela Round Regular'), local('Varela-Round-Regular'),
+        url('../fonts/VarelaRound-Regular.ttf') format('woff2'),
+        url('../fonts/VarelaRound-Regular.woff') format('woff'),
+        url('../fonts/VarelaRound-Regular.woff2') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

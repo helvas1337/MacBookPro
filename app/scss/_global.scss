@@ -1,0 +1,70 @@
+
+html, body {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+ul,li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+body {
+	min-width: 280px;
+	overflow-x: hidden;
+	position: relative;
+	color: white;
+}
+
+.container {
+	max-width: 1270px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.page-section {
+	min-height: 100vh;
+	background: url(../images/bg.png) no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 50px
+}
+
+.title {
+	@extend %ubuntu-normal;
+	font-size: 44px;
+	line-height: 53px;
+	padding-left: 25px;
+	margin-bottom: 55px;
+}
+
+.arrow {
+	padding: 13px 0 30px;
+	text-align: center;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
